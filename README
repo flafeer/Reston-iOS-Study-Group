@@ -1,4 +1,10 @@
 This is a shared repository for anything we'll work on together in the iOS Study Group
 
-Please create a new folder for each Xcode project.
+Please create a new folder for each Xcode project.A
+
+=================
+Projects
+--------
+
+Collections: A starter project using Xcode 4.2 Master-Detail template with ARC, CoreData, and Unit Tests.
 
