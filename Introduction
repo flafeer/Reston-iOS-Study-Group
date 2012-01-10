@@ -1,0 +1,18 @@
+Introduction to Reston iOS Study Group
+
+The Reston iOS Study Group is an ad-hoc informal group of programmers interested in becoming more proficient at native iOS development.  Software in this repository is open source under The MIT License.
+
+There is a considerably wide range of iOS development experience levels and interests in the group, which led to the idea of several "tracks" that morph over time.  There are about 2 to 4 coders in each track right now; of course, can participate in more than one track.
+
+Several people in the group have published apps on the AppStore and do development for iOS and other mobile platforms in their day jobs.  Others have already worked through several of the "how to write iOS apps" books (which seem to cover much of the same material) and built some unpublished experimental apps.  And then there are several who are just beginning their journey, generally from a website development background.
+
+Over the first couple meetings the topics of interest so far have included a common "starter" app, connecting with remote (e.g. MySQL) backend databases from a native iOS app, OpenGL ES, and gaming.   While had initially anticipated the group would work thru various API's, folks seem to find a "project" focus more comfortable, so initially trying a hybrid approach.
+
+MoDevDC and the regional  NSCoderNight group have been helpful in providing guidance based upon their experiences over the past several years.
+
+We picked the iOS Programming:BNRG2e (green cover) as a common reference for the group, as it was agreed to be one of the most accurate "how to write iOS app books"  thus far.  The new Objective-C Programming:BNRG book (orange cover) is suggested to those getting started not quite ready for the former.  One perceived value of a common book is being able to say 'look at the 2nd paragraph on page 204' as a shortcut in a chat session or mailing list discussion.
+
+We're also probably going to add Todd Moore's new 'Tap, Move, and Shake' book to the recommended getting started books list, esp. since its game focused.
+
+...
+
