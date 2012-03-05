@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0017B4150543F900476E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017B3150543F900476E10 /* UIKit.framework */; };
+		EA0017B6150543F900476E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017B5150543F900476E10 /* Foundation.framework */; };
+		EA0017B8150543F900476E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017B7150543F900476E10 /* CoreGraphics.framework */; };
+		EA0017BE150543FA00476E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0017BC150543FA00476E10 /* InfoPlist.strings */; };
+		EA0017C0150543FA00476E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0017BF150543FA00476E10 /* main.m */; };
+		EA0017C4150543FA00476E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0017C3150543FA00476E10 /* AppDelegate.m */; };
+		EA0017C7150543FA00476E10 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0017C5150543FA00476E10 /* MainStoryboard.storyboard */; };
+		EA0017CA150543FA00476E10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0017C9150543FA00476E10 /* ViewController.m */; };
+		EA0017D2150543FB00476E10 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017D1150543FA00476E10 /* SenTestingKit.framework */; };
+		EA0017D3150543FB00476E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017B3150543F900476E10 /* UIKit.framework */; };
+		EA0017D4150543FB00476E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0017B5150543F900476E10 /* Foundation.framework */; };
+		EA0017DC150543FB00476E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0017DA150543FB00476E10 /* InfoPlist.strings */; };
+		EA0017DF150543FB00476E10 /* CloudStoreThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0017DE150543FB00476E10 /* CloudStoreThreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0017D5150543FB00476E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0017A6150543F500476E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0017AE150543F900476E10;
+			remoteInfo = CloudStoreThree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0017AF150543F900476E10 /* CloudStoreThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudStoreThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0017B3150543F900476E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA0017B5150543F900476E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0017B7150543F900476E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA0017BB150543FA00476E10 /* CloudStoreThree-Info.plist */ = {isa = PBXFileReference; path = "CloudStoreThree-Info.plist"; sourceTree = "<group>"; };
+		EA0017BD150543FA00476E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0017BF150543FA00476E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0017C1150543FA00476E10 /* CloudStoreThree-Prefix.pch */ = {isa = PBXFileReference; path = "CloudStoreThree-Prefix.pch"; sourceTree = "<group>"; };
+		EA0017C2150543FA00476E10 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA0017C3150543FA00476E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA0017C6150543FA00476E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA0017C8150543FA00476E10 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EA0017C9150543FA00476E10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA0017D0150543FA00476E10 /* CloudStoreThreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudStoreThreeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0017D1150543FA00476E10 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA0017D9150543FB00476E10 /* CloudStoreThreeTests-Info.plist */ = {isa = PBXFileReference; path = "CloudStoreThreeTests-Info.plist"; sourceTree = "<group>"; };
+		EA0017DB150543FB00476E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0017DD150543FB00476E10 /* CloudStoreThreeTests.h */ = {isa = PBXFileReference; path = CloudStoreThreeTests.h; sourceTree = "<group>"; };
+		EA0017DE150543FB00476E10 /* CloudStoreThreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudStoreThreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0017AC150543F900476E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017B4150543F900476E10 /* UIKit.framework in Frameworks */,
+				EA0017B6150543F900476E10 /* Foundation.framework in Frameworks */,
+				EA0017B8150543F900476E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0017CC150543FA00476E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017D2150543FB00476E10 /* SenTestingKit.framework in Frameworks */,
+				EA0017D3150543FB00476E10 /* UIKit.framework in Frameworks */,
+				EA0017D4150543FB00476E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0017A4150543F500476E10 = {
+			isa = PBXGroup;
+			children = (
+				EA0017B9150543F900476E10 /* CloudStoreThree */,
+				EA0017D7150543FB00476E10 /* CloudStoreThreeTests */,
+				EA0017B2150543F900476E10 /* Frameworks */,
+				EA0017B0150543F900476E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0017B0150543F900476E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017AF150543F900476E10 /* CloudStoreThree.app */,
+				EA0017D0150543FA00476E10 /* CloudStoreThreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0017B2150543F900476E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017B3150543F900476E10 /* UIKit.framework */,
+				EA0017B5150543F900476E10 /* Foundation.framework */,
+				EA0017B7150543F900476E10 /* CoreGraphics.framework */,
+				EA0017D1150543FA00476E10 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0017B9150543F900476E10 /* CloudStoreThree */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017C2150543FA00476E10 /* AppDelegate.h */,
+				EA0017C3150543FA00476E10 /* AppDelegate.m */,
+				EA0017C5150543FA00476E10 /* MainStoryboard.storyboard */,
+				EA0017C8150543FA00476E10 /* ViewController.h */,
+				EA0017C9150543FA00476E10 /* ViewController.m */,
+				EA0017BA150543FA00476E10 /* Supporting Files */,
+			);
+			path = CloudStoreThree;
+			sourceTree = "<group>";
+		};
+		EA0017BA150543FA00476E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017BB150543FA00476E10 /* CloudStoreThree-Info.plist */,
+				EA0017BC150543FA00476E10 /* InfoPlist.strings */,
+				EA0017BF150543FA00476E10 /* main.m */,
+				EA0017C1150543FA00476E10 /* CloudStoreThree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0017D7150543FB00476E10 /* CloudStoreThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017DD150543FB00476E10 /* CloudStoreThreeTests.h */,
+				EA0017DE150543FB00476E10 /* CloudStoreThreeTests.m */,
+				EA0017D8150543FB00476E10 /* Supporting Files */,
+			);
+			path = CloudStoreThreeTests;
+			sourceTree = "<group>";
+		};
+		EA0017D8150543FB00476E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0017D9150543FB00476E10 /* CloudStoreThreeTests-Info.plist */,
+				EA0017DA150543FB00476E10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0017AE150543F900476E10 /* CloudStoreThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0017E2150543FB00476E10 /* Build configuration list for PBXNativeTarget "CloudStoreThree" */;
+			buildPhases = (
+				EA0017AB150543F900476E10 /* Sources */,
+				EA0017AC150543F900476E10 /* Frameworks */,
+				EA0017AD150543F900476E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudStoreThree;
+			productName = CloudStoreThree;
+			productReference = EA0017AF150543F900476E10 /* CloudStoreThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0017CF150543FA00476E10 /* CloudStoreThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0017E5150543FB00476E10 /* Build configuration list for PBXNativeTarget "CloudStoreThreeTests" */;
+			buildPhases = (
+				EA0017CB150543FA00476E10 /* Sources */,
+				EA0017CC150543FA00476E10 /* Frameworks */,
+				EA0017CD150543FA00476E10 /* Resources */,
+				EA0017CE150543FA00476E10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0017D6150543FB00476E10 /* PBXTargetDependency */,
+			);
+			name = CloudStoreThreeTests;
+			productName = CloudStoreThreeTests;
+			productReference = EA0017D0150543FA00476E10 /* CloudStoreThreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0017A6150543F500476E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA0017A9150543F500476E10 /* Build configuration list for PBXProject "CloudStoreThree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0017A4150543F500476E10;
+			productRefGroup = EA0017B0150543F900476E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0017AE150543F900476E10 /* CloudStoreThree */,
+				EA0017CF150543FA00476E10 /* CloudStoreThreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0017AD150543F900476E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017BE150543FA00476E10 /* InfoPlist.strings in Resources */,
+				EA0017C7150543FA00476E10 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0017CD150543FA00476E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017DC150543FB00476E10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA0017CE150543FA00476E10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0017AB150543F900476E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017C0150543FA00476E10 /* main.m in Sources */,
+				EA0017C4150543FA00476E10 /* AppDelegate.m in Sources */,
+				EA0017CA150543FA00476E10 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0017CB150543FA00476E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0017DF150543FB00476E10 /* CloudStoreThreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0017D6150543FB00476E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0017AE150543F900476E10 /* CloudStoreThree */;
+			targetProxy = EA0017D5150543FB00476E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0017BC150543FA00476E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0017BD150543FA00476E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA0017C5150543FA00476E10 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0017C6150543FA00476E10 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0017DA150543FB00476E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0017DB150543FB00476E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0017E0150543FB00476E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0017E1150543FB00476E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0017E3150543FB00476E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudStoreThree/CloudStoreThree-Prefix.pch";
+				INFOPLIST_FILE = "CloudStoreThree/CloudStoreThree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA0017E4150543FB00476E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudStoreThree/CloudStoreThree-Prefix.pch";
+				INFOPLIST_FILE = "CloudStoreThree/CloudStoreThree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA0017E6150543FB00476E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudStoreThree.app/CloudStoreThree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudStoreThree/CloudStoreThree-Prefix.pch";
+				INFOPLIST_FILE = "CloudStoreThreeTests/CloudStoreThreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EA0017E7150543FB00476E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudStoreThree.app/CloudStoreThree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudStoreThree/CloudStoreThree-Prefix.pch";
+				INFOPLIST_FILE = "CloudStoreThreeTests/CloudStoreThreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0017A9150543F500476E10 /* Build configuration list for PBXProject "CloudStoreThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0017E0150543FB00476E10 /* Debug */,
+				EA0017E1150543FB00476E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0017E2150543FB00476E10 /* Build configuration list for PBXNativeTarget "CloudStoreThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0017E3150543FB00476E10 /* Debug */,
+				EA0017E4150543FB00476E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA0017E5150543FB00476E10 /* Build configuration list for PBXNativeTarget "CloudStoreThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0017E6150543FB00476E10 /* Debug */,
+				EA0017E7150543FB00476E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0017A6150543F500476E10 /* Project object */;
+}
