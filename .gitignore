@@ -1,0 +1,6 @@
+# standard include for Xcode 4.2 and above
+**/~*
+*/**/xcuserdata/**/*
+*/**/project.xcworkspace/**
+*.DS_Store
+*~
